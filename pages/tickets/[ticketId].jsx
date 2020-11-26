@@ -21,6 +21,7 @@ const ShowTicket = ({ ticket }) => {
       <button onClick={() => doRequest()} className="btn btn-primary">
         Purchase
       </button>
+      {errors}
     </div>
   );
 };
