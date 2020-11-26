@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Router from 'next/router';
 import useRequest from '../../hooks/use-request';
 
@@ -41,7 +41,9 @@ const Signin = () => {
         />
       </div>
       {errors}
-      <button type="submit" className="btn btn-primary">Sign In</button>
+      <button type="submit" className="btn btn-primary">
+        Sign In
+      </button>
     </form>
   );
 };
